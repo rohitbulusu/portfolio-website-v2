@@ -275,8 +275,13 @@ h6 {
   right: 0;
 }
 
+#hero h5 {
+  color: #64ffda;
+  padding-bottom: 30px;
+}
+
 #hero h1 {
-  margin: 0;
+  margin: -6px;
   font-size: 80px;
   font-weight: 700;
   line-height: 56px;
@@ -317,13 +322,17 @@ h6 {
   #hero {
     text-align: center;
   }
+  #hero h5 {
+    font-size: 20px;
+  }
   #hero h1 {
-    font-size: 32px;
+    font-size: 60px;
     line-height: 36px;
   }
+  
   #hero p {
-    margin-top: 10px;
-    font-size: 20px;
+    margin-top: 40px;
+    font-size: 30px;
     line-height: 24px;
   }
 }
