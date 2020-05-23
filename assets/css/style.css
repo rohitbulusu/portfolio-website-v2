@@ -262,6 +262,7 @@ h6 {
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
+    position: relative;
   }
 }
 
@@ -321,6 +322,7 @@ h6 {
 @media (max-width: 992px) {
   #hero {
     text-align: center;
+    background-position: -650px;
   }
   #hero h5 {
     font-size: 20px;
