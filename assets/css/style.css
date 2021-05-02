@@ -397,6 +397,10 @@ section {
   color: #64ffda;
 }
 
+.about img {
+  border-radius: 2%;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -576,14 +580,13 @@ section {
   line-height: 1;
   text-transform: uppercase;
   color: #bfd3eb;
-  margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #64ffda;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -591,6 +594,7 @@ section {
 }
 
 .portfolio .portfolio-wrap {
+  border-radius: 2%;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
@@ -599,8 +603,9 @@ section {
 }
 
 .portfolio .portfolio-wrap::before {
+  border-radius: 2%;
   content: "";
-  background: #172a45;
+  background:rgba(29, 54, 79, 0.9);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -684,7 +689,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #64ffda;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .portfolio .portfolio-wrap:hover::before {
